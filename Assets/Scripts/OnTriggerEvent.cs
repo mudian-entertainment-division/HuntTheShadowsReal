@@ -17,4 +17,14 @@ public class OnTriggerEvent : MonoBehaviour
             Debug.Log("Next Level");
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        Debug.Log("Still Triggered");
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("No longer Triggered");
+    }
 }

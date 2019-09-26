@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 933848205}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Untagged
+  m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -518,8 +518,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: 
-    sentences: []
+    name: fdkjgng
+    sentences:
+    - Sup Cunt
 --- !u!212 &933848207
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -576,8 +577,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933848204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.542, y: -3.03, z: 0}
+  m_LocalScale: {x: 1.775, y: 1.3410151, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -782,7 +783,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1350586423
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3551,7 +3552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f77e048fbb2f264592d920a295b9839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
 --- !u!50 &2004090194
 Rigidbody2D:
   serializedVersion: 4
@@ -3611,10 +3611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4344d717db184245ae4bd28614457b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar: {fileID: 0}
-  maxHealth: 100
-  curHealth: 0
-  enemies: {fileID: 0}
 --- !u!1 &2008071298
 GameObject:
   m_ObjectHideFlags: 0
